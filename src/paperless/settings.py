@@ -379,6 +379,9 @@ STORAGES = {
     "default": {"BACKEND": "django.core.files.storage.FileSystemStorage"},
 }
 
+# https://whitenoise.readthedocs.io/en/latest/django.html#whitenoise-makes-my-tests-run-slow
+WHITENOISE_AUTOREFRESH = True
+
 _CELERY_REDIS_URL, _CHANNELS_REDIS_URL = _parse_redis_url(
     os.getenv("PAPERLESS_REDIS", None),
 )
