@@ -89,11 +89,7 @@ ARG RUNTIME_PACKAGES="\
   mariadb-client \
   # OCRmyPDF dependencies
   tesseract-ocr \
-  tesseract-ocr-eng \
-  tesseract-ocr-deu \
-  tesseract-ocr-fra \
-  tesseract-ocr-ita \
-  tesseract-ocr-spa \
+  tesseract-ocr-all \
   unpaper \
   pngquant \
   jbig2dec \
